@@ -110,4 +110,151 @@ Feature: List section
 #    When the user clicks the completed button
 #    Then completed item test1 is displayed with a tick
 #    And completed item test2 is displayed with a tick
-#    And tiem test3 and item test4 are not displayed
+#    And item test3 and item test4 are not displayed
+
+#
+#  Scenario: todo web app is responsive at screen resolution 1920×1080
+#    Given the user access the todo website via web browser
+#    And the screen resolution is 1920×1080
+#    When the user add 10 items on the lists
+#    And the user hits enter key
+#    Then the item list are visible
+#    When the user clicks the check box
+#    Then a green tick is displayed
+#    And the item is completed
+#    And the items left counter displays as 9 items left
+#    And the clear completed button is displayed
+#    When the user clicks the Active filter
+#    Then the only the items not completed are displayed
+#    When the user clicks the completed filter
+#    Then only the completed item is displayed
+#    When the user clicks on the clear completed button
+#    Then no item is displayed
+#    And the items left counter is displayed as 9 items left
+#    When the user clicks the all filter
+#    Then all the 9 items are displayed
+#    When the user hovers over an item
+#    Then the delete x icon is displayed
+#
+#
+#      Scenario: todo web app is responsive at screen resolution 1366×768
+#    Given the user access the todo website via web browser
+#    And the screen resolution is 1366×768
+#    When the user add 10 items on the lists
+#    And the user hits enter key
+#    Then the item list are visible
+#    When the user clicks the check box
+#    Then a green tick is displayed
+#    And the item is completed
+#    And the items left counter displays as 9 items left
+#    And the clear completed button is displayed
+#    When the user clicks the Active filter
+#    Then the only the items not completed are displayed
+#    When the user clicks the completed filter
+#    Then only the completed item is displayed
+#    When the user clicks on the clear completed button
+#    Then no item is displayed
+#    And the items left counter is displayed as 9 items left
+#    When the user clicks the all filter
+#    Then all the 9 items are displayed
+#    When the user hovers over an item
+#    Then the delete x icon is displayed
+#
+#
+#      Scenario: todo web app is responsive at mobile screen resolution 414x896
+#    Given the user access the todo website via web browser
+#    And the screen resolution is 414x896
+#    When the user add 10 items on the lists
+#    And the user hits enter key
+#    Then the item list are visible
+#    When the user clicks the check box
+#    Then a green tick is displayed
+#    And the item is completed
+#    And the items left counter displays as 9 items left
+#    And the clear completed button is displayed
+#    When the user clicks the Active filter
+#    Then the only the items not completed are displayed
+#    When the user clicks the completed filter
+#    Then only the completed item is displayed
+#    When the user clicks on the clear completed button
+#    Then no item is displayed
+#    And the items left counter is displayed as 9 items left
+#    When the user clicks the all filter
+#    Then all the 9 items are displayed
+#    When the user hovers over an item
+#    Then the delete x icon is displayed
+
+
+#      Scenario: todo web app cross browser test - chrome
+#    Given the user access the todo website via web browser
+#    When the user add 10 items on the lists
+#    And the user hits enter key
+#    Then the item list are visible
+#    When the user clicks the check box
+#    Then a green tick is displayed
+#    And the item is completed
+#    And the items left counter displays as 9 items left
+#    And the clear completed button is displayed
+#    When the user clicks the Active filter
+#    Then the only the items not completed are displayed
+#    When the user clicks the completed filter
+#    Then only the completed item is displayed
+#    When the user clicks on the clear completed button
+#    Then no item is displayed
+#    And the items left counter is displayed as 9 items left
+#    When the user clicks the all filter
+#    Then all the 9 items are displayed
+#    When the user hovers over an item
+#    Then the delete x icon is displayed
+#    When the browser is refreshed
+#    Then the data persists
+
+
+#      Scenario: todo web app cross browser test - firefox
+#    Given the user access the todo website via web browser
+#    When the user add 10 items on the lists
+#    And the user hits enter key
+#    Then the item list are visible
+#    When the user clicks the check box
+#    Then a green tick is displayed
+#    And the item is completed
+#    And the items left counter displays as 9 items left
+#    And the clear completed button is displayed
+#    When the user clicks the Active filter
+#    Then the only the items not completed are displayed
+#    When the user clicks the completed filter
+#    Then only the completed item is displayed
+#    When the user clicks on the clear completed button
+#    Then no item is displayed
+#    And the items left counter is displayed as 9 items left
+#    When the user clicks the all filter
+#    Then all the 9 items are displayed
+#    When the user hovers over an item
+#    Then the delete x icon is displayed
+#    When the browser is refreshed
+#    Then the data persists
+
+
+#      Scenario: todo web app cross browser test - Edge
+#    Given the user access the todo website via web browser
+#    When the user add 10 items on the lists
+#    And the user hits enter key
+#    Then the item list are visible
+#    When the user clicks the check box
+#    Then a green tick is displayed
+#    And the item is completed
+#    And the items left counter displays as 9 items left
+#    And the clear completed button is displayed
+#    When the user clicks the Active filter
+#    Then the only the items not completed are displayed
+#    When the user clicks the completed filter
+#    Then only the completed item is displayed
+#    When the user clicks on the clear completed button
+#    Then no item is displayed
+#    And the items left counter is displayed as 9 items left
+#    When the user clicks the all filter
+#    Then all the 9 items are displayed
+#    When the user hovers over an item
+#    Then the delete x icon is displayed
+#    When the browser is refreshed
+#    Then the data persists

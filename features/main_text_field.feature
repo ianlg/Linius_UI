@@ -1,12 +1,19 @@
 
 Feature: Main text field
 
-#
+#  Scenario: Text field default view
+#    Given the user access the todo website via web browser
+#    Then the main text field is displayed
+#    And the todos logo is displayed
+
+
 #  Scenario: text field is able to accept numeric characters
 #    Given the user access the todo website via web browser
 #    When the user input text as 1234567890
 #    And the user hits enter key
 #    Then the item is visible and matches text as 1234567890
+#    And the item left counter is displayed
+#    And the All, Active, Completed filter options are displayed
 #    And the browser is closed
 #
 #
